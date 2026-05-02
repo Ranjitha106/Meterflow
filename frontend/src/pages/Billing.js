@@ -30,7 +30,7 @@ const Billing = () => {
       } catch (err) {
         console.error("Failed to fetch billing data");
       } finally {
-        setLoading(false);
+        // setLoading(false);
       }
     };
     fetchBilling();
