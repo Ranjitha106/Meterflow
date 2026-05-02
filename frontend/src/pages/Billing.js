@@ -7,7 +7,7 @@ const Billing = () => {
     totalRequests: 0,
     billAmount: 0,
   });
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchBilling = async () => {

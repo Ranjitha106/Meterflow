@@ -14,21 +14,21 @@ import Billing from "./pages/Billing";
 import Signup from "./pages/Signup";
 
 
-const PlaceholderDashboard = () => (
-  <div className="p-10 text-center">
-    <h1 className="text-2xl font-bold">Dashboard Coming Soon!</h1>
-    <p>You have successfully logged in.</p>
-    <button
-      onClick={() => {
-        localStorage.clear();
-        window.location.reload();
-      }}
-      className="mt-4 bg-red-500 text-white px-4 py-2 rounded"
-    >
-      Logout
-    </button>
-  </div>
-);
+// const PlaceholderDashboard = () => (
+//   <div className="p-10 text-center">
+//     <h1 className="text-2xl font-bold">Dashboard Coming Soon!</h1>
+//     <p>You have successfully logged in.</p>
+//     <button
+//       onClick={() => {
+//         localStorage.clear();
+//         window.location.reload();
+//       }}
+//       className="mt-4 bg-red-500 text-white px-4 py-2 rounded"
+//     >
+//       Logout
+//     </button>
+//   </div>
+// );
 
 function App() {
   
